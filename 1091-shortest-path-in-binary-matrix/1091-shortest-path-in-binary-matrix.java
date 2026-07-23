@@ -10,7 +10,7 @@ class Pair{
 }
 class Solution {
     public int shortestPathBinaryMatrix(int[][] grid) {
-        if(grid[0][0] == 1)
+        if(grid[0][0] == 1 || grid[grid.length-1][grid[0].length-1] == 1)
             return -1;
 
         int[][] dist = new int[grid.length][grid[0].length];
@@ -31,7 +31,7 @@ class Solution {
             pq.poll();
 
             if(i == grid.length-1 && j == grid[0].length-1)
-                break;
+                return dis;
 
             if(i > 0){
                 if(dist[i-1][j] > dis+1 && grid[i-1][j] != 1){
@@ -86,10 +86,7 @@ class Solution {
             }          
         }
 
-        if(dist[grid.length-1][grid[0].length-1] == 1e9)
-            return -1;
-        
-        return dist[grid.length-1][grid[0].length-1];
+        return -1;    
 
     }
 }
