@@ -29,6 +29,8 @@ class Solution {
 
             pq.poll();
 
+            if(i == grid.length-1 && j == grid[0].length-1)
+                break;
             if(i > 0){
                 if(dist[i-1][j] > dis+1 && grid[i-1][j] != 1){
                     dist[i-1][j] = dis+1;
