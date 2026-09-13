@@ -1,4 +1,4 @@
-class Pair{                                                                                                                                                            int v;
+class Pair{                                                                                                                   int v;
     int time;
       public Pair(int v, int time){                                                                                                                                                                                                              
           this.v=v;                                                                                 
