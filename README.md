@@ -75,4 +75,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/kpandey15/LeetCode/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
+## Dijkstra's Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/kpandey15/LeetCode/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 <!---LeetCode Topics End-->
