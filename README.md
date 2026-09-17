@@ -79,4 +79,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/kpandey15/LeetCode/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0007-reverse-integer](https://github.com/kpandey15/LeetCode/tree/main/0007-reverse-integer/) | Medium |
 <!---LeetCode Topics End-->
